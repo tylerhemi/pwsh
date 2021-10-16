@@ -1,0 +1,1 @@
+Get-CimInstance -Class Win32_Product | Where Name -like "Windows Agent" | Remove-CimInstance

@@ -1,0 +1,1 @@
+Get-DfsReplicationGroup  repo | Get-DfsrMembership | Set-DfsrMembership -StagingPathQuotaInMB 16384 -ConflictAndDeletedQuotaInMB 16384

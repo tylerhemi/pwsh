@@ -1,0 +1,1 @@
+Backup-SqlDatabase -ServerInstance "TPSQLCL01" -Database "RL6_Production" -BackupFile "\\tprl601\c$\temp\RL6_Production.bak"

@@ -1,0 +1,1 @@
+Register-ScheduledJob -Name GetUpdates -ScriptBlock { get-windowsupate -install } -RunNow

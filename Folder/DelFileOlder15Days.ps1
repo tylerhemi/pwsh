@@ -1,0 +1,1 @@
+Get-ChildItem "C:\ProgramData\Tableau\Tableau Server\data\tabsvc\files\backups\*" -Filter "ts_backup*" -File | Where CreationTime -lt (Get-Date).AddDays(-15) | Remove-Item
